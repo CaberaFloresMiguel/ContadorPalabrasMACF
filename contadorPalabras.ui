@@ -23,7 +23,9 @@ QPushButton { background-color: #7650C8; color: #FFFFFF; border: 0px; border-rad
 QPushButton:hover { background-color: #865FE0; }
 QPushButton:pressed { background-color: #6240AA; }</string>
   </property>
+
   <widget class="QWidget" name="centralwidget">
+
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
@@ -48,11 +50,39 @@ QPushButton:pressed { background-color: #6240AA; }</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
+
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>70</y>
+      <width>458</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>11</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { color: #A78BFA; }</string>
+    </property>
+    <property name="text">
+     <string>OSWALDO Y MIGUEL</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+
    <widget class="QLineEdit" name="edtCaracteres">
     <property name="geometry">
      <rect>
       <x>45</x>
-      <y>100</y>
+      <y>110</y>
       <width>458</width>
       <height>160</height>
      </rect>
@@ -67,6 +97,7 @@ QPushButton:pressed { background-color: #6240AA; }</string>
      <string>Escribe aquí tu texto...</string>
     </property>
    </widget>
+
    <widget class="QLabel" name="tvPalabras">
     <property name="geometry">
      <rect>
@@ -94,6 +125,7 @@ QPushButton:pressed { background-color: #6240AA; }</string>
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
    </widget>
+
    <widget class="QLabel" name="tvCaracteres">
     <property name="geometry">
      <rect>
@@ -121,6 +153,7 @@ QPushButton:pressed { background-color: #6240AA; }</string>
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
    </widget>
+
    <widget class="QPushButton" name="btnContar">
     <property name="geometry">
      <rect>
@@ -142,7 +175,9 @@ QPushButton:pressed { background-color: #6240AA; }</string>
      <string>Contar</string>
     </property>
    </widget>
+
   </widget>
+
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
@@ -153,7 +188,9 @@ QPushButton:pressed { background-color: #6240AA; }</string>
     </rect>
    </property>
   </widget>
+
   <widget class="QStatusBar" name="statusbar"/>
+
  </widget>
  <resources/>
  <connections/>
