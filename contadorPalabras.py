@@ -34,6 +34,17 @@ class contadorPalabras(QtWidgets.QMainWindow):
 
         print("Se ha presionado el boton")
 
+        if (cantidadPalabras >=50 ) :
+            self.tvPalabras.setStyleSheet("color: #ff756b")
+        else :
+                self.tvPalabras.setStyleSheet("color: #3478D4")
+        if (cantidadPalabras >=50 ) :
+            self.tvCaracteres.setStyleSheet("color: #ff756b")
+        else :
+                self.tvCaracteres.setStyleSheet("color: #3478D4")
+                               
+                    
+
 app= QtWidgets.QApplication(sys.argv)
 ventana = contadorPalabras()
 ventana.show()
